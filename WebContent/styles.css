@@ -1,0 +1,210 @@
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: red;
+}
+
+body{
+	background-color: yellow;
+	margin: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#topHeader{
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    position: relative;
+}
+
+#mainWrap{
+	position: relative;
+	height: 100%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	min-width: 700px;
+}
+
+#fbLoginButton{
+    display: block;
+    width: 591px;
+    height: 145px;
+}
+
+#homepageButton{
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#usernameAndChips{
+    float: right;
+}
+
+#gametick{
+	position: relative;
+	width: 100%;
+	height: 10%;
+	
+}
+
+.tableCards{
+	float: left;
+	width: 10%;
+}
+
+#table{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 100%;
+	height: 90%;
+	min-height: 500px;
+	min-width: 700px;
+}
+
+#tableCards{
+	background-color: grey;
+	position: relative;
+	top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100px;
+}
+
+#usersCards{
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	right:0;
+	width: 15%;
+	height: 100px;
+}
+
+.seat{
+	background-color: blue;
+	position: absolute;
+	border: 1px solid black;
+	width: 15%;
+	height: 25%;
+}
+
+#seat0{
+	top: 35%;
+	left: 5%;
+	
+}
+
+#seat1{
+	left: 25%;
+	top: 5%;
+}
+
+#seat2{
+	right: 25%;
+	top: 5%;
+}
+
+#seat3{
+	right: 5%;
+	top: 35%;
+}
+
+#seat4{
+	right: 25%;
+	bottom: 5%;
+}
+
+#seat5{
+	left: 25%;
+	bottom: 5%;
+}
+
+#underTable{
+	position: relative;
+	background-color: purple;
+	width: 100%;
+	height: 20%;
+	min-width: 700px;
+}
+
+#gameInput{
+	width: 50%;
+	height: 100%;
+	background-color: grey;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+}
+
+#output{
+	position: absolute;
+	width: 50%;
+	height: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-x:scroll;
+	left: 0;
+	top: 0;
+}
+
+#winner{
+	position: absolute;
+	left:0;
+	bottom:0;
+	text-align: center;
+	
+}
+
+.playersGo{
+	background-color: red;
+}
+
+#chatbox{
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	left: 0;
+	bottom: 0;
+}
+
+#playerCard0{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color: pink;
+}
+
+#playerCard1{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top:0;
+	right:0;
+	background-color: orange;
+}
+
+.userCards{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
